@@ -1,5 +1,4 @@
-import { useEffect } from "react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import PropTypes from "prop-types";
 
 const Cards = ({ handleCookBtn }) => {
@@ -25,7 +24,7 @@ const Cards = ({ handleCookBtn }) => {
 
             <ul className="mt-6 mb-4">
               <h3 className="font-medium text-lg mb-4">
-                Ingredients:{card.ingredients.length}
+                Ingredients: {card.ingredients.length}
               </h3>
               {card.ingredients.map((ingredient, idx) => (
                 <li className="list-disc ml-8 text-gray-500" key={idx}>

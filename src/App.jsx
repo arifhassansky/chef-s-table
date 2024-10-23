@@ -10,9 +10,9 @@ function App() {
   const [recipes, setRecipe] = useState([]);
 
   const handleCookBtn = (recipe) => {
-    const isExists = recipes.find((rec) => rec.recipe_i == recipe.id);
+    const isExists = recipes.find((rec) => rec.recipe_id == recipe.recipe_id);
     if (isExists) {
-      alert("recipe already cooking");
+      alert("Recipe Already Cooking");
     } else {
       setRecipe([...recipes, recipe]);
     }
