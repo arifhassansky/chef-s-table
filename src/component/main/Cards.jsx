@@ -1,7 +1,8 @@
 import { useEffect } from "react";
 import { useState } from "react";
+import PropTypes from "prop-types";
 
-const Cards = () => {
+const Cards = ({ handleCookBtn }) => {
   const [cards, setCards] = useState([]);
 
   useEffect(() => {
@@ -44,7 +45,10 @@ const Cards = () => {
               </p>
             </div>
             <div className="card-actions mt-4">
-              <button className="btn bg-primary px-6 rounded-full">
+              <button
+                onClick={() => handleCookBtn(card)}
+                className="btn bg-primary px-6 rounded-full"
+              >
                 Want to Cook
               </button>
             </div>
@@ -54,5 +58,7 @@ const Cards = () => {
     </div>
   );
 };
-
+Cards.propTypes = {
+  handleCookBtn: PropTypes.func.isRequired,
+};
 export default Cards;
