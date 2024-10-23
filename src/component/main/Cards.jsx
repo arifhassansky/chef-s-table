@@ -36,11 +36,11 @@ const Cards = ({ handleCookBtn }) => {
             <div className="flex gap-8 mt-4 text-gray-700">
               <p>
                 <i className="fa-regular fa-clock mr-2"></i>{" "}
-                {card.preparing_time}
+                {card.preparing_time} min
               </p>
               <p className="">
                 <i className="fa-solid fa-fire-flame-curved mr-2"></i>
-                {card.calories}
+                {card.calories} calories
               </p>
             </div>
             <div className="card-actions mt-4">

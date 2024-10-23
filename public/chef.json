@@ -11,8 +11,8 @@
       "1 onion",
       "100 g broccoli"
     ],
-    "preparing_time": "30 min",
-    "calories": "320 calories"
+    "preparing_time": 30,
+    "calories": 320
   },
   {
     "recipe_image": "https://i.ibb.co.com/GQhbrnM/recepie-2.jpg",
@@ -26,8 +26,8 @@
       "1 onion",
       "400 g tomato sauce"
     ],
-    "preparing_time": "40 min",
-    "calories": "450 calories"
+    "preparing_time": 40,
+    "calories": 450
   },
   {
     "recipe_image": "https://i.ibb.co.com/Vv2jWC9/recepie-3.jpg",
@@ -41,8 +41,8 @@
       "2 celery stalks",
       "1 liter vegetable broth"
     ],
-    "preparing_time": "25 min",
-    "calories": "150 calories"
+    "preparing_time": 25,
+    "calories": 150
   },
   {
     "recipe_image": "https://i.ibb.co.com/rFzhLXw/recepie-4.jpg",
@@ -56,8 +56,8 @@
       "Salt and pepper",
       "Fresh dill"
     ],
-    "preparing_time": "20 min",
-    "calories": "350 calories"
+    "preparing_time": 20,
+    "calories": 350
   },
   {
     "recipe_image": "https://i.ibb.co.com/B2D5Cpr/recepie-5.jpg",
@@ -71,8 +71,8 @@
       "3 eggs",
       "100 g butter"
     ],
-    "preparing_time": "60 min",
-    "calories": "500 calories"
+    "preparing_time": 60,
+    "calories": 500
   },
   {
     "recipe_image": "https://i.ibb.co.com/rGBkFzp/recepie-6.jpg",
@@ -86,7 +86,7 @@
       "2 tbsp Caesar dressing",
       "1 grilled chicken breast"
     ],
-    "preparing_time": "15 min",
-    "calories": "280 calories"
+    "preparing_time": 15,
+    "calories": 280
   }
 ]
